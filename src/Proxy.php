@@ -37,7 +37,7 @@ class Proxy
                 'body' => $response->getBody()->getContents(),
                 'status' => $response->getStatusCode(),
                 'headers' => $response->getHeaders()
-            ]);
+            ], headers: self::ADD_HEADERS);
         }
 
         $headers = $response->getHeaders();
