@@ -1,0 +1,16 @@
+{
+  "name": "troep/proxy",
+  "version": "1.0.0",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  },
+  "require": {
+    "guzzlehttp/guzzle": "*",
+    "symfony/http-kernel": "*"
+  }
+}
